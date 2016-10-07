@@ -1,3 +1,10 @@
 language: ruby
 rvm:
 - 2.0.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: OoN/VVfWbkFiJ6ejEuijMLAaajVhIDlm2LcMMBApuQ+XCMH5o+F2ATQ6k5drRRSqvwgxUMx3CS2pJk91+Vvqd4ia7roKnH5c6M3e/6CUqG8CgenEufZUDm8LG7luqFdFMK2VTFhM6Kfshc9rQGEJGnWuVXxTpl+gwywNdIegACJUO0nasgVZtfwIwhPWaLigm3AxVMUG5tlnEi+GavoMv5RUM3dWYLmFa1OcE4akM0fdxPZxdB51khhqLjELUCi5QTBvU7sG4Dnxc7D2aS/LpOV7Pkn+KfK2auzl2VyKKEUHJd6WTKBVt51FkDZtUzbjOIXPspDy7cVv7hmGr2AdMdi2PK5qneysibjplo9pRzFDBpEk7mggSzm77kAbvIN3PF/nS2oGfCko2RR6Y+QF11lfIPXaRaausxYKyMyQVNCXaw0WfPg33LHTyXH9SH8Yz4vm3NY2af+wWxuF+YMw3oJ2uPJdDsuyyHlu2gdhnTfyeCYoUve6bXTkmFc7z2uJDoQUotKJxQKpZShQMn/Bogzb6/FWDSbBY0elIf9aJ4csLtCGqzCmPvyy/amazs4+CFHi2324r+p/gw66OJ3plSaciBqu/MyD0IRwfEl2ZcJzXsweIRzcQhLmZ2bwP9MgyR/YxSL255jb08VR2xqg7tjTorF0Tvg9Ut9YzPxLOKo=
+  app: test
+  on:
+    repo: azo123/test
